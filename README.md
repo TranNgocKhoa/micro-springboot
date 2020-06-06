@@ -30,3 +30,10 @@ CONTAINER ID        NAME                CPU %               MEM USAGE / LIMIT   
 6e802ac34f2c        micro-springboot    0.43%               116MiB / 1.945GiB   5.82%               836B / 0B           0B / 0B             35
 ```
 
+## Using jdeps to determine which modules to include:
+
+```shell script
+$ jdeps -s target/micro.jar.original 
+```
+
+The command above has a bug 

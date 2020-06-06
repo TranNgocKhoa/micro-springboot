@@ -1,6 +1,6 @@
 # micro-springboot
 
-This is a demo for creating a Spring Boot web application with minimum Docker image size.
+This is a demo for creating a Spring Boot web application with small Docker image size (80 MB).
 
 The idea comes from https://www.youtube.com/watch?v=Yj0sx1dvEdo.
 

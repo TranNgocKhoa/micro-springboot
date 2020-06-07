@@ -54,6 +54,13 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.3.0.RELEASE</version>
+                <configuration>
+                    <layers>
+                        <enabled>true</enabled>
+                        <includeLayerTools>false</includeLayerTools>
+                    </layers>
+                </configuration>
             </plugin>
         </plugins>
     </build>
